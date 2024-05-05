@@ -14,13 +14,13 @@ const UserType = () => {
 
     return (
         <div className="userType">
-            <span>User</span>
+            <span>Admin</span>
             <label className="switch">
                 <input type="checkbox" checked={isAdmin}
                     onChange={handleToggle} />
                 <span className="slider round"></span>
             </label>
-            <span>Admin</span>
+            <span>User</span>
         </div>
     );
 };

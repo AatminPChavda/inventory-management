@@ -1,0 +1,24 @@
+.inventoryList {
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    background: #212124;
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+
+        .tableRow {
+            border-bottom: 1px solid white;
+        }
+
+        .tableHeading {
+            background: #1a1b1d;
+            padding: 20px 10px;
+        }
+
+        .tableData {
+            padding: 20px 10px;
+        }
+    }
+}
